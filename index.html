@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <form action="https://echo.htmlacademy.ru/" method="POST">
+        <div class="form__box">
+            <div class="form__leftbox leftbox">
+                <div class="form__headerbox">
+                    <span class="leftbox__header">My Wallets</span>
+                    <a href="#" class="form__link">
+                        <img class="leftbox__plus" src="./images/plus.svg" alt="Plus">
+                    </a>
+                </div>
+                <div class="form__cards">
+                    <label  class="label" >
+                        <input type="radio" class="visually-hidden radio" name="card_type" value="visa" >
+                        <span class="card form__card">
+                            <img class="card__img" src="./images/visa.svg" alt="Visa logo">
+                            <span class="card__number">**** **** **** 2562</span>
+                            <span class="card__date">Valid thru: 12/17</span>
+                        </span>
+                    </label>
+                    <label  class="label" >
+                        <input type="radio" class="visually-hidden radio" name="card_type"  value="mastercard">
+                        <span class="card form__card">
+                            <img class="card__img" src="./images/mastercard.svg" alt="Mastercard logo">
+                            <span class="card__number">**** **** **** 2101</span>
+                            <span class="card__date">Valid thru: 07/19</span>
+                        </span>
+                    </label>
+                    <label  class="label" >
+                        <input type="radio" class="visually-hidden radio" name="card_type"  value="maestro">
+                        <span class="card form__card">
+                            <img class="card__img" src="./images/maestro.svg" alt="maestro logo">
+                            <span class="card__number">**** **** **** 8335</span>
+                            <span class="card__date">Valid thru: 09/17</span>
+                        </span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form__mainbox mainbox">
+                <div class="mainbox__headerbox">
+                    <span class="mainbox__header">Current Balance</span>
+                    <span class="mainbox__balance">$720.<sup>00</sup></span>
+                </div>
+                <ol class="mainbox__list">
+                    <li class="mainbox__item item">
+                        <label class="mainbox__label">
+                            <input type="checkbox" class="mainbox__checkbox visually-hidden">
+                            <span class="input__controller"></span>
+                            <span class="item__textbox">
+                                <span class="item__strongtext">Apple iPhone 7, 128 GB</span>
+                                <span class="item__lighttext">Electronics #32343424 - 12 July 2015</span>
+                            </span>
+                            <span class="item__current">$650.<sup>00</sup></span>
+                        </label>
+                    </li>
+                    <li class="mainbox__item item">
+                        <label class="mainbox__label">
+                            <input type="checkbox" class="mainbox__checkbox visually-hidden">
+                            <span class="input__controller"></span>
+                            <span class="item__textbox">
+                                <span class="item__strongtext">Funds Added</span>
+                                <span class="item__lighttext">Paymet #5435 - 11 July 2015</span>
+                            </span>
+                            <span class="item__current">$900.<sup>00</sup></span>
+                        </label>
+                    </li>
+                    <li class="mainbox__item item">
+                        <label class="mainbox__label">
+                            <input type="checkbox" class="mainbox__checkbox visually-hidden">
+                            <span class="input__controller"></span>
+                            <span class="item__textbox">
+                                <span class="item__strongtext">Energy Bill </span>
+                                <span class="item__lighttext">Other #745237423 - 11 July 2015</span>
+                            </span>
+                            <span class="item__current">$84.<sup>90</sup></span>
+                        </label>
+                    </li>
+                    <li class="mainbox__item item">
+                        <label class="mainbox__label">
+                            <input type="checkbox" class="mainbox__checkbox visually-hidden">
+                            <span class="input__controller"></span>
+                            <span class="item__textbox">
+                                <span class="item__strongtext">The Eye Cinema Ticket</span>
+                                <span class="item__lighttext">Entertainment #32343424 - 10 July 2015</span>
+                            </span>
+                            <span class="item__current">$40.<sup>00</sup></span>
+                        </label>
+                    </li>
+                    
+                </ol>
+            </div>
+        </div>
+        <div class="form__btnbox">
+            <button class="form__btn" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
